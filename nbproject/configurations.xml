@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="SourceFiles"
+                   displayName="Исходные файлы"
+                   projectFiles="true">
+      <itemPath>ClientsBox.cpp</itemPath>
+      <itemPath>QMessage.cpp</itemPath>
+      <itemPath>SClient.cpp</itemPath>
+      <itemPath>SParams.cpp</itemPath>
+      <itemPath>SQueue.cpp</itemPath>
+      <itemPath>SocketServer.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="HeaderFiles"
+                   displayName="Файлы заголовков"
+                   projectFiles="true">
+      <itemPath>ClientsBox.h</itemPath>
+      <itemPath>QMessage.h</itemPath>
+      <itemPath>SClient.h</itemPath>
+      <itemPath>SParams.h</itemPath>
+      <itemPath>SQueue.h</itemPath>
+      <itemPath>SocketServer.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Файлы ресурсов"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Файлы тестов"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Важные файлы"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1" platformSpecific="true">
+      <toolsSet>
+        <compilerSet>CLang|CLang</compilerSet>
+        <platform>2</platform>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <commandlineTool>g++</commandlineTool>
+          <incDir>
+            <pElem>D:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/SDK/ScopeCppSDK/SDK/include/shared</pElem>
+            <pElem>D:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/SDK/ScopeCppSDK/SDK/include/ucrt</pElem>
+            <pElem>D:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/SDK/ScopeCppSDK/SDK/include/ucrt/sys</pElem>
+            <pElem>D:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/SDK/ScopeCppSDK/SDK/include/um</pElem>
+            <pElem>D:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/SDK/ScopeCppSDK/SDK/include/um/alljoyn_c</pElem>
+            <pElem>D:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/SDK/ScopeCppSDK/SDK/include/um/gl</pElem>
+            <pElem>D:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/SDK/ScopeCppSDK/SDK/include/um/qcc</pElem>
+            <pElem>D:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/SDK/ScopeCppSDK/SDK/include/um/qcc/windows</pElem>
+            <pElem>D:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/SDK/ScopeCppSDK/SDK/include/winrt</pElem>
+            <pElem>D:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/SDK/ScopeCppSDK/SDK/include/winrt/wrl</pElem>
+            <pElem>D:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/SDK/ScopeCppSDK/SDK/include/winrt/wrl/wrappers</pElem>
+            <pElem>D:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/SDK/ScopeCppSDK/VC/include</pElem>
+          </incDir>
+          <commandLine>-pthread</commandLine>
+        </ccTool>
+      </compileType>
+      <item path="ClientsBox.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ClientsBox.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QMessage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QMessage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SClient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SParams.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SParams.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SQueue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SQueue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SocketServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SocketServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="ClientsBox.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ClientsBox.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QMessage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QMessage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SClient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SParams.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SParams.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SQueue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SQueue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SocketServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SocketServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Debug_CLang" type="1" platformSpecific="true">
+      <toolsSet>
+        <compilerSet>CLang|CLang</compilerSet>
+        <platform>3</platform>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <architecture>2</architecture>
+          <standard>8</standard>
+          <commandlineTool>clang++</commandlineTool>
+        </ccTool>
+      </compileType>
+      <item path="ClientsBox.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ClientsBox.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QMessage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QMessage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SClient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SParams.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SParams.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SQueue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SQueue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SocketServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SocketServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
